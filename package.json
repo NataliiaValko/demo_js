@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://NataliiaValko.github.io/demo_js",
+  "homepage": "https://NataliiaValko.github.io/demo-js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /demo_js/"
+    "build": "parcel build src/*.html --public-url /demo-js/"
   },
   "repository": {
     "type": "git",
