@@ -1,10 +1,10 @@
-import SimpleLightbox from 'simplelightbox';
-import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
+// import SimpleLightbox from 'simplelightbox';
+// import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
 
-const lightbox = new SimpleLightbox('.gallery a', {
-  captionDelay: 250,
-  captionsData: 'alt',
-});
+// const lightbox = new SimpleLightbox('.gallery a', {
+//   captionDelay: 250,
+//   captionsData: 'alt',
+// });
 
 // 1. В терміналі прописати команду "npm install simplelightbox"
 // 2. Створити у папці js окремий файл, наприклад, "simplelightbox.js" і вставити в нього цей код
