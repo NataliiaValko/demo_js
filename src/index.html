@@ -2,19 +2,42 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page title</title>
-  <link rel="stylesheet" href="./sass/index.scss" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo-JS</title>
+  <link rel="stylesheet" href="./sass/index.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Links for Animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <!-- Links for Slick -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+
   <script type="module" src="./index.js"></script>
 </head>
 
 <body>
   <!-- ❗️❗️❗️ Add partials like so for every page -->
   <include src="./partials/header.html"></include>
-  <include src="./partials/gallery.html"></include>
-  <!-- <include src="./partials/slick.html"></include>
-  <include src="./partials/up-button.html"></include> -->
+  <div id="home"></div>
+  <main>
+    <include src="./partials/gallery.html"></include>
+    <include src="./partials/slick.html"></include>
+  </main>
+  <include src="./partials/up-button.html"></include>
+
+
+  <!-- Links for Slick -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

@@ -1,14 +1,42 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
-.container {
+.header-scroll {
+  background-image: linear-gradient(0deg, #7fb101a9, #ffe550bc);
 }
+
+.header-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .logo {
 }
 .nav {
 }
 .nav__list {
+  display: flex;
+  gap: 45px;
 }
 .nav__item {
 }
 .nav__link {
+  display: block;
+  padding: 30px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: #2c2c2c;
+
+  &:hover,
+  &:focus {
+    color: #25291e;
+    text-shadow: rgb(10, 17, 8) 2px 0px 15px;
+  }
 }

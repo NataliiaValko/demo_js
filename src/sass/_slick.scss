@@ -1,12 +1,16 @@
 .slick {
 }
-.container {
-}
 .slick__list {
-}
-.list {
 }
 .slick__item {
 }
 .slick__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: green;
+  font-size: 58px;
 }

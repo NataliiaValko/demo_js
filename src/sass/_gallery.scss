@@ -1,13 +1,17 @@
 .gallery-section {
+  padding: 180px 0 90px 0;
 }
 .container {
 }
 .gallery__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
 }
 .gallery {
 }
-.list {
-}
+
 .gallery__item {
 }
 .gallery__link {

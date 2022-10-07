@@ -1,6 +1,29 @@
 .up-button {
+  position: fixed;
+  bottom: 45px;
+  right: 45px;
 }
-.up-button__button {
+.up-button__link {
+  position: relative;
+  top: -30px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 45px;
+  height: 80px;
+  fill: #7eb101;
+  &:hover,
+  &:focus {
+    scale: 1.2;
+    background-color: #7fb10194;
+    fill: #638230;
+    box-shadow: rgb(77, 125, 64) 2px 0px 15px;
+  }
 }
 .up-button__icon {
+  position: relative;
+  top: 20px;
+  left: 0;
 }
