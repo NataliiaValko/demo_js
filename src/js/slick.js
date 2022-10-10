@@ -18,3 +18,5 @@ $('.one-time').slick({
 //    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 // 6. Задати клас "one-time" на батьківський елемент (div чи ul) та огорнути необхідні елементи у теги <div></div>.
 //Після цього, при кликі на пагінацію чи перетягування мишкою, картки будуть гортатися
+
+//test
