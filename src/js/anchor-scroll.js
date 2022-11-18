@@ -28,9 +28,14 @@ $(document).ready(function () {
   });
 });
 
+// https://animate.style/
+
 //  1. В терміналі прописати команду "npm i jquery"
+
 //  2. Створити у папці js окремий файл, наприклад, "anchor-scroll.js" і вставити в нього цей код
+
 //  3. Підключити його до index.js
+
 //  4. За бажанням можна задати анімацію. Для цього у head треба підключити лінк
 //     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 //     і на елементи, що треба анімувати додати клас animate__animated та опціональний клас, наприклад animate__slideOutUp
