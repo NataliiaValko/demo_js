@@ -6,7 +6,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
 // https://simplelightbox.com/
 // https://cdnjs.com/libraries/simplelightbox
 
-// 1. Створити у папці js окремий файл, наприклад, "simplelightbox.js" і вставити в нього цей код
+// 1. Створити у папці js окремий файл, наприклад, "simplelightbox.js" і вставити в нього код, що на 1-4 рядках цього файлу
 
 // 2. Підключити у head
 //  <link
