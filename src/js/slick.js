@@ -4,7 +4,7 @@ $('.one-time').slick({
   nextArrow: '<button type="button" class="my-slick-next">&xrarr;</button>',
   infinite: true,
   speed: 300,
-  slidesToShow: 1,
+  slidesToShow: 2,
   adaptiveHeight: true,
 });
 
@@ -12,7 +12,7 @@ $('.one-time').slick({
 
 // 1. В терміналі прописати команду "npm i jquery"
 
-// 2. Створити у папці js окремий файл, наприклад, "slick.js" і вставити в нього цей код
+// 2. Створити у папці js окремий файл, наприклад, "slick.js" і вставити в нього код, що на 1-9 рядках цього файлу
 
 // 3. Підключити його до index.js
 

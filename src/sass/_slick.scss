@@ -1,8 +1,11 @@
 .slick {
+  padding-bottom: 100px;
 }
 .slick__list {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
+  display: flex;
+  // gap: 30px;
 }
 .slick__item {
 }
@@ -10,8 +13,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
   margin: 0 auto;
   background-color: green;
   font-size: 58px;
@@ -27,7 +30,7 @@
   padding: 0;
   width: 50px;
   height: 40px;
-
+  cursor: pointer;
   font-family: inherit;
   font-weight: 900;
   font-size: 36px;
