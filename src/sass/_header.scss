@@ -10,14 +10,27 @@
 }
 
 .header-box {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .logo {
+  display: block;
+  padding: 15px 0;
+  margin-right: auto;
+
+  @media screen and(min-width: 768px) {
+    margin-right: 0;
+  }
 }
 .nav {
+  display: none;
+
+  @media screen and(min-width: 768px) {
+    display: block;
+  }
 }
 .nav__list {
   display: flex;

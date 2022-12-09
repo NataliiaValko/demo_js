@@ -4,14 +4,36 @@ body {
   margin: 0;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 ul {
   margin: 0;
   padding: 0;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
-  width: 1200px;
+  width: 100%;
   padding: 0 30px;
   margin: 0 auto;
+
+  @media screen and(min-width: 320px) {
+    width: 280px;
+  }
+
+  @media screen and(min-width: 768px) {
+    width: 708px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    width: 1140px;
+  }
 }
 
 .list {

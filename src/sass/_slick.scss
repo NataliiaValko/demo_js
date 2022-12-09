@@ -2,18 +2,20 @@
   padding-bottom: 100px;
 }
 .slick__list {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  // gap: 30px;
 }
+
 .slick__item {
+  margin: 15px;
 }
 .slick__box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  width: 100%;
   height: 200px;
   margin: 0 auto;
   background-color: green;
@@ -23,7 +25,8 @@
 .my-slick-prev,
 .my-slick-next {
   position: absolute;
-  top: 50%;
+  bottom: -40px;
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,9 +44,25 @@
 }
 
 .my-slick-prev {
-  left: -100px;
+  left: 50px;
+
+  @media screen and(min-width: 768px) {
+    left: 250px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    left: 350px;
+  }
 }
 
 .my-slick-next {
-  right: -100px;
+  right: 50px;
+
+  @media screen and(min-width: 768px) {
+    right: 250px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    right: 350px;
+  }
 }

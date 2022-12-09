@@ -1,11 +1,30 @@
-$('.one-time').slick({
+$('.responsive').slick({
   // dots: true,
   prevArrow: '<button type="button" class="my-slick-prev">&xlarr;</button>',
   nextArrow: '<button type="button" class="my-slick-next">&xrarr;</button>',
   infinite: true,
   speed: 300,
-  slidesToShow: 2,
+  slidesToScroll: 1,
   adaptiveHeight: true,
+  slidesToShow: 3,
+
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ],
 });
 
 // http://kenwheeler.github.io/slick/
@@ -25,5 +44,6 @@ $('.one-time').slick({
 //    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 //    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-// 6. Задати клас "one-time" на батьківський елемент (div чи ul) та огорнути необхідні елементи у теги <div></div>.
+// 6. Задати клас "responsive" на батьківський елемент (div) та огорнути необхідні елементи/картки у теги <div></div>.
+
 //Після цього, при кликі на пагінацію чи перетягування мишкою, картки будуть гортатися

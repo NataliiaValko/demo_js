@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
 
   <!-- Links for Animate -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -29,17 +32,31 @@
     <include src="./partials/gallery.html"></include>
     <include src="./partials/slick.html"></include>
   </main>
+  <include src="./partials/menu.html"></include>
   <include src="./partials/up-button.html"></include>
-  <!-- Links for Slick -->
+  <button type="button" class="main-button js-open-modal" data-modal="2">Open modal #2</button>
+  <button type="button" class="main-button js-open-modal" data-modal="3">Open modal #3</button>
+  <div class="backdrop js-backdrop-modal">
+    <include src="./partials/modal1.html"></include>
+    <include src="./partials/modal2.html"></include>
+    <include src="./partials/modal3.html"></include>
+  </div>
 
+  <!-- Links for Slick -->
   <script type="module" src="./index.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   <!-- Links for Simplelightbox -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.js"
     integrity="sha512-IKDNPsyNuvwDr8D2nIcJVgNFuj3XXdV0jJ5S6E+nYwl5RiLxrd51TnDJDN1lQJrVdF4K849Lizr12ZCZV81MoA=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Links for mobile menu -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
